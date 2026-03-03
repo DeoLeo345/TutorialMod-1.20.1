@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorial-mod",
+	"version": "${version}",
+	"name": "tutorial mod",
+	"description": "第一次开发！",
+	"authors": [
+		"DeoLeo"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorial-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.deoleo.tutorial.TutorialMod"
+		],
+		"fabric-datagen": [
+			"com.deoleo.tutorial.TutorialModDataGenerator"
+		],
+		"client": [
+			"com.deoleo.tutorial.TutorialModClient"
+		]
+	},
+	"mixins": [
+		"tutorial-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
