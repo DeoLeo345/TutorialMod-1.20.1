@@ -1,5 +1,6 @@
 package com.deoleo.tutorial;
 
+import com.deoleo.tutorial.block.ModBlocks;
 import com.deoleo.tutorial.item.ModItemGroups;
 import com.deoleo.tutorial.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -23,6 +24,7 @@ public class TutorialMod implements ModInitializer {
 
 		ModItems.registerItems();
 		ModItemGroups.registerGroups();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

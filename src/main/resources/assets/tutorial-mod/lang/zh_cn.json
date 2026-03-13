@@ -3,5 +3,8 @@
   "item.tutorial-mod.raw_ice_ether": "生冰醚",
   "item.tutorial-mod.material.cardboard": "硬纸板",
   "itemGroup.tutorial_group": "教程方块",
-  "itemGroup.tutorial_group2": "教程方块2"
+  "itemGroup.tutorial_group2": "教程方块2",
+  "block.tutorial-mod.ice_ether_block": "冰醚块",
+  "block.tutorial-mod.raw_ice_ether_block": "生冰醚块",
+  "block.tutorial-mod.ice_ether_ore": "冰醚矿"
 }
